@@ -61,7 +61,7 @@ const QuestionCard: React.FC<QuestionCardProps> = ({ question, onAnswerChange })
                     type="text"
                     value={selectedAnswer}
                     onChange={(e) => handleAnswerChange(e.target.value)}
-                    placeholder="Type your answer here..."
+                    placeholder="Jūsų atsakymas"
                     className="text-center py-2"
                   />
                 </Form.Group>
